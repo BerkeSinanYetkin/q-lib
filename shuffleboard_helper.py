@@ -57,13 +57,7 @@ class ShuffleboardHelper:
         #             "a": self.a,
         #         }
 
-        #         new_vals_dict = self.helper.updateVal(values_dict)
-
-        #         keys = list(new_vals_dict.keys())
-        #         vals = list(new_vals_dict.values())
-
-        #         for i, val in enumerate(vals):
-        #             exec(f'self.{keys[i]} = {val}')
+        #         values_dict = self.helper.updateVal(values_dict)
     
     def createVal(self, name:str, val):
         type_of_val = type(val)
